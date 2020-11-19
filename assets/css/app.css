@@ -1,0 +1,10 @@
+/*Utils*/
+@import url('reset.css');
+@import url('colors.css');
+@import url('font-awesome.css');
+@import url('bootstrap.css');
+@import url('general.css');
+@import url('fonts.css');
+/*Layouts*/
+@import url('layout/header.css');
+@import url('layout/footer.css');

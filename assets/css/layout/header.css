@@ -1,0 +1,125 @@
+.container-fluid {
+	box-sizing: border-box;
+}
+
+.container-fluid.row {
+	box-sizing: border-box;	
+}
+
+.col-md-6 {
+	max-width: 50%;
+	height: 510px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+
+h1 {
+	font-size: 44px;
+	letter-spacing: -1px;
+	line-height: 50px;
+	color: #1f373d;
+	font-weight: 600;
+}
+
+.col-md-6 .text {
+	float: left;
+	max-width: 539px;
+	height: 226px;
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	color: #1f373d;
+	font-weight: 400;
+	font-family: "Montserrat";
+	}
+
+	.col-md-6 .text1 {
+	position: relative;
+	float: left;
+	bottom: 107px;
+	max-width: 539px;
+	max-height: 226px;
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	color: #1f373d;
+	font-weight: 400;
+	font-family: "Montserrat";
+	}
+
+	[class ^="box-"] {
+		float: left;
+		width: 200px;
+		height: 200px;
+		box-sizing: border-box;
+		margin: 30px;
+		background: #f6f5f4;	
+	}
+
+	span.number {
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 50px;
+	color: #ffcc01;
+	font-weight: 600;
+	font-family: "Montserrat";
+	}
+
+	span.word {	
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 50px;
+	color: #1f373d;
+	font-weight: 600;
+	font-family: "Montserrat";
+	}
+
+	.number1 {
+		position: absolute;
+	    left: 105px;
+	    top: 86px
+	}
+
+	.number2 {
+		position: absolute;
+	    left: 358px;
+	    top: 86px;
+	}
+
+	.number3 {
+		position: absolute;
+	    left: 113px;
+	    top: 348px;
+	}
+
+	.number4 {
+		position: absolute;
+	    left: 384px;
+	    top: 348px
+	}
+
+	.word1{
+		position: absolute;
+		top: 120px;
+		left: 99px
+	}
+
+	.word2{
+		position: absolute;
+	    top: 122px;
+	    right: 155px;
+	}
+
+	.word3{
+		position: absolute;
+	    bottom: 73px;
+	    left: 105px;
+	}
+
+	.word4{
+		position: absolute;
+	    bottom: 73px;
+	    right: 151px;
+	}
+
