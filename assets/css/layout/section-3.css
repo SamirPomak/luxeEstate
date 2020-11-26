@@ -1,0 +1,44 @@
+.section-3 {
+	background-color: #f6f5f4;
+}
+
+.section-3-search .sc3-input{
+	border: none;
+	position: relative;
+	width: auto;
+	height: 6vh;
+	box-sizing: border-box;
+	background: #fff;
+	top: 20px;
+	margin: 0;
+	margin-bottom: 50px;
+	outline: 0;
+
+
+}
+
+.section-3-search .section-3-srchbtn {
+
+	border: none; 
+	position: relative;
+	width: auto;
+	height: 6vh;
+	background:  #ffcc01;
+	top: 20px;
+	right: 6px;
+	border-radius:5px;
+	color: black;
+	font-weight: bolder;
+	 
+}
+
+.section-3-search .view {
+	position: relative;
+	width: auto;
+	height: 6vh;
+	background: #fff;
+	top: 19px;
+	left: 3px;
+	
+}
+

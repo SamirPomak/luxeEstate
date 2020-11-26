@@ -1,0 +1,60 @@
+.section-5 .bg-red {
+	background: #FFFFFF;
+	color:rgb(22, 22, 23);
+}
+
+.section-5 .bg-blue {
+	top: 157px;
+	left: 20px;
+	background: #FFFFFF;
+	color: rgb(22, 22, 23);
+
+}
+
+       /*OPTIONS*/
+
+.section-5 .Services {
+	font-size: 35px;
+    color: rgb(22, 22, 23);
+    font-weight: 600;
+
+}
+
+.section-5 .Renting {
+	font-size: 35px;
+    color: rgb(22, 22, 23);
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.section-5 .Selling {
+	font-size: 35px;
+    color: rgb(22, 22, 23);
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.section-5 .Building {
+	font-size: 35px;
+    color: rgb(22, 22, 23);
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.section-5-img {
+	background: url('../../img/singapur.jpg') no-repeat center center;
+	background-size: cover;
+	height: 631px;
+	width: 100%;
+}
+      /*Text class*/
+
+.section-5 .q {
+	padding-top: 36px;
+	padding-bottom: 60px;
+	display: inline-block;
+}
+
+.section-5 {
+	margin-bottom: 200px;
+}

@@ -1,0 +1,162 @@
+.sc5_grey {
+	background: #f6f5f4;
+	min-height: 850px;
+	width: 100%;
+}
+
+.sc5_h2 {
+	font-size: 36px;
+	position: relative;
+	top: 64px;
+	display: inline-block; 
+	font-weight: 900
+}
+
+.sc5_text {
+	font-size: 13px;
+	position: relative;
+	top: 92px;
+	left: 0px;
+	display: block;
+	font-weight: 900;
+	line-height: 29px;
+}
+
+.sc5_image, .sc5_image2, .sc5_image3  {
+	position: relative;
+	width: 350px;
+	height: 379px;
+	background: url(../../img/Luke_Sky.jpg) no-repeat center center;
+	background-size: cover;
+	/* background: #cdccce; */
+	left: 0px;
+	top: 0px;
+	box-shadow: 1px 1px 20px -10px;
+	display: inline-block;
+	margin-top: 120px;
+
+}
+
+.sc5_div {
+	position: absolute;
+	bottom: -99px;
+	width: 350px;
+	height: 98px;
+	background: #ffffff;
+	box-shadow: 1px 1px 20px -10px;
+}
+
+.sc5_div2 {
+	position: absolute;
+	bottom: -99px;
+	width: 350px;
+	height: 98px;
+	background: #ffffff;
+	box-shadow: 1px 1px 20px -10px;
+}
+
+.sc5_div3 {
+	position: absolute;
+	bottom: -99px;
+	width: 349px;
+	height: 98px;
+	background: #ffffff;
+	box-shadow: 1px 1px 20px -10px;
+}
+
+.sc5_div_p {
+	position: absolute;
+	top: 22px;
+	left: 23px;
+	color: #1f373d;
+	font-weight: 900;
+}
+
+.sc5_div_p2 {
+	position: absolute;
+	left: 23px;
+	top: 57px;
+	color: #ffcc01;
+	font-weight: 900;
+	height: 13px;
+}
+
+#facebook {
+	position: absolute;
+	top:52px;
+	right:122px;
+	height: 17px;
+}
+
+#twitter {
+	position: absolute;
+	top:52px;
+	right:69px;
+	height: 14px;
+}
+
+#dribbble {
+	position: absolute;
+	top:52px;
+	right:21px;
+	height: 17px;
+	font-weight: 900;
+}
+
+.cs_5_text > div > h2 {
+	position: relative;
+	font-size: 24px;
+	color: #1f373d;
+	display: inline-block;
+	font-weight: 900;
+	top: 167px;
+	left: 102px;
+}
+
+.cs_5_text > div > p {
+	position: relative;
+	font-size: 13px;
+	color: #1f373d;
+	display: inline-block;
+	font-weight: 900;
+	top: 198px;
+	left: 102px;
+}
+
+.add_time {
+	height: 331px;
+	width: 100%;
+	background: url(../../img/melbourne.jpg) no-repeat center center;
+	background-size: cover;
+	position: relative;
+	top:88px;
+}
+
+.sub_add_time {
+position: absolute;
+	background-color: #ffcc01;
+	height: 81px;
+	width: 336px;
+	bottom: -30px;
+	right: 100px;
+	}
+
+.sub_add_time > h2 {
+	list-style: none;
+	color: #1f373d;
+	position: absolute;
+	top: 31px;
+	left: 100px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+#map-maker {
+	position: absolute;
+	top: 30px;
+	left: 55px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}

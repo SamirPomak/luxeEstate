@@ -1,0 +1,134 @@
+.section-4 div.header-text1 {
+	position: relative;
+	top: 120px;
+}
+.section-4 {
+	margin-bottom: 300px;
+}
+
+.section-4 h1 {
+	position: relative;
+	top: 50px; 
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 50px;
+	color: #1f373d;
+	font-weight: 600;
+	}
+
+.section-4 div.header-text1 {
+	position: relative;
+	top: 50px;
+	width: 361px;
+	height: 95px;
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	color: #1f373d;
+	font-weight: 400;
+}
+
+.section-4 {
+	position: relative;
+	top: 94px;
+	height: auto;
+	background-color: white;
+}
+.section-4 div.section-4-block {
+	position: relative;
+	top: 110px;
+	width: 344px;
+	height: 373px;
+	font-size: 13px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	color: #1f373d;
+	font-weight: 400;
+	background: white;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-4 div.col-md-4.active {
+	background: #ffcc01;
+}
+
+.section-4 div.number {
+	position: absolute;
+	right: 164px;
+}
+
+.section-4 div.col-md-4.active > .number img {
+	position: absolute;
+	right: 47px;
+
+}
+
+.section-4 div.description {
+    margin: -116px;
+    margin-left: 31px;
+    margin-right: 34px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: black;
+    
+}
+
+ .section-4 span.title
+  {
+	font-size: 18px;
+    font-weight: bolder;
+    line-height: 296px;
+    color: black;
+    margin-left: 17px;
+}
+
+.section-4 .active div.description {
+    margin: -116px;
+    margin-left: 31px;
+    margin-right: 34px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: white;
+    
+}
+
+ .section-4 .active span.title
+  {
+	font-size: 18px;
+    font-weight: bolder;
+    line-height: 296px;
+    color: white;
+    margin-left: 17px;
+}
+
+.section-4 div.col-md-4.active > a {
+	position: relative;
+    top: 126px;
+    left: 33px;
+    font-size: 13px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: 600
+
+}
+
+.section-4 a, .section-4 a:hover, .section-4 a:visited{
+	position: relative;
+    top: 126px;
+    left: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.section-4 a:after {
+	display: block;
+	transition: 1s;
+	content:'______________';
+	padding-right: 50px;
+}
