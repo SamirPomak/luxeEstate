@@ -1,31 +1,364 @@
-.container-fluid {
-	box-sizing: border-box;
+
+/*----------------- NAVIGATION LIST----------------- */
+.top-h {
+    height: 95px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
 }
 
-.container-fluid.row {
-	box-sizing: border-box;	
+.top-h .navbar li{
+    float: left;
+    display: inline-block;
 }
 
-.col-md-6 {
-	max-width: 50%;
-	height: 510px;
-	box-sizing: border-box;
-	overflow: hidden;
+.top-h nav ul {
+    line-height: 40px;
+    margin: 65px 0px 0px 0px;
 }
 
+.top-h nav ul li a {
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 34px;
+}
 
-h1 {
+.top-h .join-us {
+    display: inline-block;
+    padding-left: 64px;
+    margin-right: -4px;
+}
+
+/* ---------------LOGO------------------ */
+.top-h .brand-name {
+    display: inline-block;
+    line-height: 40px;
+    padding: 25px 194px 20px 0px;
+    float: left;
+}
+.top-h .brand-name a {
+    
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: -1px;
+    color: black;
+}
+
+.top-h .brand-name a:hover,
+.top-h .brand-name a:focus {
+    color: #850202;
+    text-decoration: none;
+}
+/* -----------GET STARTED BUTTON IN THE NAVIGATION----------- */
+.top-h .get-started {
+    padding-left: 6px;
+    width: 145px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc01;
+    font-size: 13px;
+    text-align: center;
+    color: #1f373d;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.top-h .get-started:hover {
+    color: #850202;
+}
+
+.top-h .button-div {
+line-height: 40px;
+text-align: center;
+color: black;
+margin: -38px 0 0 -10px;
+}
+
+.top-h .toggle-btn {
+    font-size: 30px;
+    line-height: 40px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+/* ---------------Big heading and search bar--------------- */
+.main-bg {
+    background: url('../../img/imot.png') no-repeat center center;
+    background-size: cover;
+    width: 82.2%;
+    height: 63.1rem;
+    position: relative;
+    margin-left: 19.2%;
+    animation: slide 25s ease-in-out infinite;
+}
+
+.main-bg .search-area .search input[type=text] {
+    padding: 28px;
+    font-size: 15px;
+    letter-spacing: 0;
+    border: none;
+    float: left;
+    width: 364px;
+    height: 70px;
+    background: #ffffff;
+    outline: none;
+  }
+  
+  .main-bg .search-area form.search button {
+    float: left;
+    width: 115px;
+    height: 70px;
+    padding: 30px;
+    background: #ffcc01;
+    color: rgb(2, 2, 2);
+    font-size: 15px;
+    letter-spacing: 0;
+    border: none;
+    border-radius: 0px 5px 5px 0px; 
+    cursor: pointer;
+  }
+
+  .main-bg .main-text {
+    width: fit-content;
+    position: absolute;
+    top: 150px;
+    left: -205px;
+}
+.main-bg .main-text h1 {
+    font-size: 62px;
+    letter-spacing: -2px;
+    line-height: 78px;
+    font-weight: bold;
+}
+
+.main-bg .search-area {
+    position: absolute;
+    top: 339px;
+    left: -205px;
+
+}
+/* -----------------Phone number and map location------------------*/
+.main-bg .details {
+    width: 30.9vw;
+    height: 8.6vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #ffcc01;
+}
+
+.main-bg .details a {
+    display: inline-block;
+    font-size: 1vw;
+    padding: 3.1vh 0 3.1vh 0;
+    color: black;
+    font-weight: bolder;
+}
+
+.main-bg .details .detail-1 {
+    padding-right: 3.4vw;
+    padding-left: 2.9vw;
+}
+
+.main-bg .details .phone {
+    color: white;
+    /* display: inline-block; */
+    padding-right: 1.47vw;
+    font-size: 1.1vw;
+}
+
+.main-bg .details .maps {
+    color: white;
+    padding-right: 1.47vw;
+    font-size: 1.1vw;
+}
+
+.main-bg .details a:hover {
+    color: #850202;
+    text-decoration: none;
+}
+
+/* ---------------------Media queries-------------------------- */
+
+@media only screen and (max-width: 1137px) {
+    .top-h .brand-name {
+        padding-right: 100px;
+    }
+    .top-h .join-us {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1012px) {
+    .top-h .brand-name {
+        padding-right: 50px;
+    }
+    .top-h .join-us {
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .top-h {
+        position: fixed;
+        background: #ffcc01;
+        z-index: 2000;
+        width: 100%;
+        height: 80px;
+    
+    }
+
+    .top-h nav {
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        background-color: rgba(34, 31, 22, 0.938);
+        
+        top: 80px;
+        right: -500px;
+        text-align: center;
+        z-index: 1000;
+   }
+   .top-h nav ul li {
+       display: block;
+       width: 100%;
+       margin-top: 10px;
+   }
+   .top-h nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    
+   }
+   .top-h nav ul li a:hover {
+        color: #b30b0b;
+        text-decoration: none;
+   }
+
+   .top-h .toggle-btn {
+        margin: 30px;
+        display: block;
+    }
+
+    .top-h .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 7vw;
+        margin-left: 50px;
+        color: white;
+        text-decoration: none;
+      }
+    
+    .button-div .get-started {
+        margin: 25px 0 0 30px;
+    } 
+
+    .main-bg .search-area form.search button {
+    width: 75px;
+    height: 35px;
+    font-size: 13;
+    padding: 28px 10px;
+    line-height: 5px;
+    }
+
+    .main-bg .search-area form.search input[type=text] {
+        width: 45vw;
+        height: 35px;
+    }
+    .main-bg .search-area {
+    left: -21vw;
+    }
+
+    .main-bg .main-text {
+    left: -20vw;
+    }
+
+    .main-bg .main-text h1 {
+        font-size: 7vw;
+    }
+
+    .random-street {
+    
+        min-width: 100%;
+    }
+
+    #sn6-adds .sub-window-1 {
+        left: 0 !important;
+    }
+
+    .cs_5_text > div > h2 {
+        left: 0 !important;
+    }
+
+    .cs_5_text > div > p {
+        left: 0 !important;
+    }
+
+    .main-bg .details {
+        width: auto;
+    }
+    
+    .main-bg .details a {
+        font-size: 11px;
+    }
+
+    .main-bg .details .phone {
+        font-size: 11px;
+    }
+    
+    .main-bg .details .maps {
+        font-size: 11px;
+    }
+
+}
+
+/* Automatic slideshow animation*/
+@keyframes slide{
+    0%,100% {
+        background: url(../../img/imot.png) no-repeat center center;
+        background-size: cover;
+    }
+
+    20% {
+        background: url(../../img/imot-2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    40% {
+        background: url(../../img/imot-3.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    60% {
+        background: url(../../img/imot-4.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    80% {
+        background: url(../../img/imot-5.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.heading {
 	font-size: 44px;
 	letter-spacing: -1px;
 	line-height: 50px;
 	color: #1f373d;
-	font-weight: 600;
+    font-weight: 600;
+    margin-top: 50px;
 }
 
-.col-md-6 .text {
+.col-md-6 .header-text {
+    padding-top: 30px;
 	float: left;
 	max-width: 539px;
-	height: 226px;
+	height: 300px;
 	font-size: 12px;
 	letter-spacing: 0px;
 	line-height: 30px;
@@ -34,7 +367,7 @@ h1 {
 	font-family: "Montserrat";
 	}
 
-	.col-md-6 .text1 {
+	.col-md-6 .header-text1 {
 	position: relative;
 	float: left;
 	bottom: 107px;
@@ -55,8 +388,23 @@ h1 {
 		box-sizing: border-box;
 		margin: 30px;
 		background: #f6f5f4;	
-	}
+    }
+    
+    .box-1 {
+        position: relative;
+    }
 
+    .box-2 {
+        position: relative;
+    }
+
+    .box-3 {
+        position: relative;
+    }
+
+    .box-4 {
+        position: relative;
+    }
 	span.number {
 	font-size: 40px;
 	letter-spacing: -1px;
@@ -75,51 +423,51 @@ h1 {
 	font-family: "Montserrat";
 	}
 
-	.number1 {
+	.box-1 .number1 {
 		position: absolute;
-	    left: 105px;
-	    top: 86px
+	    left: 65px;
+	    top: 75px;
 	}
 
-	.number2 {
+	.box-2 .number2 {
 		position: absolute;
-	    left: 358px;
-	    top: 86px;
+	    left: 45px;
+	    top: 75px;
 	}
 
-	.number3 {
+	.box-3 .number3 {
 		position: absolute;
-	    left: 113px;
-	    top: 348px;
+	    left: 75px;
+	    top: 75px;
 	}
 
-	.number4 {
+	.box-4 .number4 {
 		position: absolute;
-	    left: 384px;
-	    top: 348px
+	    left: 75px;
+	    top: 75px;
 	}
 
-	.word1{
+	.box-1 span.word1{
 		position: absolute;
 		top: 120px;
-		left: 99px
+		left: 57px;
 	}
 
-	.word2{
+	.box-2 span.word2{
 		position: absolute;
-	    top: 122px;
-	    right: 155px;
+	    top: 120px;
+		left: 65px;
 	}
 
-	.word3{
+	.box-3 span.word3{
 		position: absolute;
-	    bottom: 73px;
-	    left: 105px;
+	    top: 120px;
+		left: 57px;
 	}
 
-	.word4{
+	.box-4 span.word4{
 		position: absolute;
-	    bottom: 73px;
-	    right: 151px;
+	    top: 120px;
+		left: 70px;
 	}
 
